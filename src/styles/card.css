@@ -1,0 +1,18 @@
+.article {
+    display: grid;
+}
+.card {
+    margin: 0 auto;
+    border: dotted rgb(90, 88, 88) 1px;
+    background-color: rgb(247, 240, 233);
+    margin: 20px;
+}
+.card * {
+    margin: 10px;
+}
+.card:hover {
+    border: solid 1px;
+}
+.card h2 {
+    font-size: 20px;
+}
